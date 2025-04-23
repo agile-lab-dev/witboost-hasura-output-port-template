@@ -267,6 +267,6 @@ spec:
     links:
       - title: Repository
         url: ${{ steps.publish.output.remoteUrl }}
-      - title: Open in catalog
+      - title: Open Component
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
